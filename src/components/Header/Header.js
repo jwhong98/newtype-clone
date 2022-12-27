@@ -11,7 +11,7 @@ const Header = () => {
       <div className={classes.headerWrap}>
         <LinkContainer />
         <div className={classes.headerMid}>
-          <img src={logo} alt="logo" />
+          <img className={classes.logo} src={logo} alt="logo" />
           <SearchBar />
         </div>
         <div className={classes.headerLast}>

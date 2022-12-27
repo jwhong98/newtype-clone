@@ -1,0 +1,12 @@
+.linkContainer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 5px;
+  color: #a1a7ad;
+}
+
+.linkContainer > a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 12px;
+}
