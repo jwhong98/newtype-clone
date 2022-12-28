@@ -16,3 +16,10 @@ header {
   width: 240px;
   height: auto;
 }
+
+.headerMid {
+  display: flex;
+  height: 40px;
+  align-items: center;
+  justify-content: space-between;
+}

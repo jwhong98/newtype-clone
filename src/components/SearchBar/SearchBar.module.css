@@ -1,0 +1,35 @@
+.searchContainer {
+  display: flex;
+}
+
+.searchForm {
+  background: #1f2122;
+  width: 500px;
+}
+
+.input {
+  background: inherit;
+  height: 100%;
+  border: none;
+  outline: none;
+  width: 90%;
+  padding: 6px 12px;
+  font-size: 1rem;
+  color: #a1a7ad;
+}
+
+.input::placeholder {
+  color: #a1a7ad;
+}
+
+ion-icon {
+  color: #a1a7ad;
+  font-size: 18px;
+}
+
+#submitBtn {
+  background: inherit;
+  height: 100%;
+  border: none;
+  outline: none;
+}
