@@ -2,10 +2,12 @@ header {
   background: #27282a;
   height: 120px;
   padding: 5px;
+  padding-bottom: 0;
 }
 
 .headerWrap {
   max-width: 1280px;
+  height: 100%;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -20,6 +22,12 @@ header {
 .headerMid {
   display: flex;
   height: 40px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headerLast {
+  display: flex;
   align-items: center;
   justify-content: space-between;
 }

@@ -1,5 +1,6 @@
 .searchContainer {
   display: flex;
+  height: 100%;
 }
 
 .searchForm {
@@ -13,7 +14,7 @@
   border: none;
   outline: none;
   width: 90%;
-  padding: 6px 12px;
+  padding: 0 12px;
   font-size: 1rem;
   color: #a1a7ad;
 }
@@ -32,4 +33,5 @@ ion-icon {
   height: 100%;
   border: none;
   outline: none;
+  padding: 0 12px;
 }
