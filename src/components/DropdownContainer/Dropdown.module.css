@@ -7,9 +7,9 @@
   border-bottom: 3px solid transparent;
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .dropdown:hover {
   border-bottom: 3px solid white;
-  cursor: pointer;
 }
