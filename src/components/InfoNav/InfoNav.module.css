@@ -1,0 +1,19 @@
+.infoNavContainer {
+  width: 100%;
+  background: #27282a;
+  position: sticky;
+  height: 50px;
+}
+
+.infoNav {
+  margin: auto;
+  max-width: 545px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.active {
+  border-bottom: 3px solid #fff;
+}

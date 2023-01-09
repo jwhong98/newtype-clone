@@ -1,10 +1,9 @@
 .hero {
-  max-width: 1280px;
-  max-height: 640px;
-  margin: auto;
+  max-width: 100%;
+  height: 640px;
 }
 
 .hero > img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }

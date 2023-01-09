@@ -5,12 +5,12 @@ import classes from "./DropdownContainer.module.css";
 const DropdownContainer = () => {
   return (
     <div className={classes.dropdownContainer}>
-      <Dropdown label="model kits" />
-      <Dropdown label="figures" />
-      <Dropdown label="minis" />
-      <Dropdown label="paints" />
-      <Dropdown label="tools" />
-      <Dropdown label="accessories" />
+      <Dropdown label="model kits" dropdown={true} />
+      <Dropdown label="figures" dropdown={true} />
+      <Dropdown label="minis" dropdown={true} />
+      <Dropdown label="paints" dropdown={true} />
+      <Dropdown label="tools" dropdown={true} />
+      <Dropdown label="accessories" dropdown={true} />
     </div>
   );
 };

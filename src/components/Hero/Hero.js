@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./Hero.module.css";
-import heroImg from "../../assets/hero.webp";
+import heroImg from "../../assets/hero2.png";
 
 const Hero = () => {
   return (
