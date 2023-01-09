@@ -12,11 +12,13 @@ const SearchBar = () => {
           className={classes.input}
           placeholder="Search..."
         />
-        <button type="submit" id={classes.submitBtn}>
+        <button type="submit" id={classes.submitBtn} className={classes.btn}>
           <ion-icon name="search"></ion-icon>
         </button>
       </form>
-      <button>shopIcon</button>
+      <button className={classes.btn}>
+        <ion-icon name="bag"></ion-icon>
+      </button>
     </div>
   );
 };

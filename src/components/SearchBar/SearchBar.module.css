@@ -5,6 +5,8 @@
 
 .searchForm {
   background: #1f2122;
+  display: flex;
+  align-items: center;
   width: 500px;
 }
 
@@ -25,7 +27,7 @@
 
 ion-icon {
   color: #a1a7ad;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 #submitBtn {
@@ -35,4 +37,15 @@ ion-icon {
   outline: none;
   padding: 0 12px;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  height: 100%;
+  outline: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin-left: 10px;
 }
