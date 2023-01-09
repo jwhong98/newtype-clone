@@ -10,3 +10,7 @@
   color: inherit;
   font-size: 12px;
 }
+
+.linkContainer > a:hover {
+  color: #fff;
+}

@@ -34,4 +34,5 @@ ion-icon {
   border: none;
   outline: none;
   padding: 0 12px;
+  cursor: pointer;
 }

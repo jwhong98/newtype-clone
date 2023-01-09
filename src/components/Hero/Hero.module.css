@@ -1,0 +1,10 @@
+.hero {
+  max-width: 1280px;
+  max-height: 640px;
+  margin: auto;
+}
+
+.hero > img {
+  max-width: 100%;
+  height: auto;
+}
