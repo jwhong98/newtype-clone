@@ -12,12 +12,7 @@ const Hero = () => {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      console.log(activeIndex);
-      if (activeIndex === 4) {
-        setActiveIndex(0);
-      } else {
-        setActiveIndex((prevIndex) => prevIndex + 1);
-      }
+      setActiveIndex((prevIndex) => (prevIndex === 4 ? 0 : prevIndex + 1));
     }, 10000);
     return () => clearInterval(interval);
   }, []);
