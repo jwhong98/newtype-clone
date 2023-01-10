@@ -28,6 +28,7 @@
 ion-icon {
   color: #a1a7ad;
   font-size: 20px;
+  cursor: pointer;
 }
 
 #submitBtn {
