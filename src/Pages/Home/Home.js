@@ -1,11 +1,11 @@
 import React from "react";
-import Grid from "../Grid/Grid";
-import classes from "./Home.module.css";
+import Grid from "../../components/Grid/Grid";
+import classes from "../styles/PageStyles.module.css";
 import { data } from "./data";
 
 const Home = () => {
   return (
-    <section className={classes.home}>
+    <section className={classes.page}>
       <Grid data={data} />
     </section>
   );
