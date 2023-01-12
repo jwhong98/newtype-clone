@@ -1,3 +1,8 @@
+.dropdownContainer {
+  height: 100%;
+  position: relative;
+}
+
 .dropdown {
   height: 100%;
   color: #fff;
@@ -12,4 +17,18 @@
 
 .dropdown:hover {
   border-bottom: 3px solid white;
+}
+
+.dropdownMenu {
+  position: absolute;
+  display: none;
+  background: #1f2122;
+  color: #fff;
+  width: 100%;
+  padding: 20px 0;
+  z-index: 15;
+}
+
+.dropdownContainer:hover .dropdownMenu {
+  display: flex;
 }
