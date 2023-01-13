@@ -4,7 +4,10 @@ import classes from "./GridCard.module.css";
 const GridCard = (props) => {
   return (
     <div className={classes.gridCard}>
-      <img src={props.img} alt="" className={classes.cardImg} />
+      <div
+        style={{ backgroundImage: `url(${props.img})` }}
+        className={classes.cardImg}
+      ></div>
       <div className={classes.prodInfo}>
         <p className={classes.cardInfo}>{props.brand}</p>
         <p className={classes.name}>{props.name}</p>

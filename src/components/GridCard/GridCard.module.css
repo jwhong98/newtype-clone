@@ -7,9 +7,13 @@
 }
 
 .cardImg {
-  width: 252.8px;
-  height: 252.8px;
+  width: 100%;
+  max-width: 252.8px;
+  min-height: 252.8px;
   background: #27282a;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .prodInfo {
